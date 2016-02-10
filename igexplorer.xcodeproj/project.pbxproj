@@ -13,6 +13,55 @@
 		883C46131C6B75C300F2A145 /* igexplorer.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 883C46111C6B75C300F2A145 /* igexplorer.xcdatamodeld */; };
 		883C46151C6B75C300F2A145 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 883C46141C6B75C300F2A145 /* Assets.xcassets */; };
 		883C46181C6B75C300F2A145 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 883C46161C6B75C300F2A145 /* LaunchScreen.storyboard */; };
+		883C46541C6B78C600F2A145 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 883C46201C6B78C600F2A145 /* AppDelegate.swift */; };
+		883C46551C6B78C600F2A145 /* BattleZone.swift in Sources */ = {isa = PBXBuildFile; fileRef = 883C46211C6B78C600F2A145 /* BattleZone.swift */; };
+		883C46561C6B78C600F2A145 /* CoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 883C46221C6B78C600F2A145 /* CoreDataStack.swift */; };
+		883C46571C6B78C600F2A145 /* FileStuff.swift in Sources */ = {isa = PBXBuildFile; fileRef = 883C46231C6B78C600F2A145 /* FileStuff.swift */; };
+		883C46581C6B78C600F2A145 /* HistogramOps.swift in Sources */ = {isa = PBXBuildFile; fileRef = 883C46241C6B78C600F2A145 /* HistogramOps.swift */; };
+		883C46591C6B78C600F2A145 /* IGDataEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 883C46251C6B78C600F2A145 /* IGDataEngine.swift */; };
+		883C465A1C6B78C600F2A145 /* IGDateSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 883C46261C6B78C600F2A145 /* IGDateSupport.swift */; };
+		883C465B1C6B78C600F2A145 /* IGJsonShim.swift in Sources */ = {isa = PBXBuildFile; fileRef = 883C46271C6B78C600F2A145 /* IGJsonShim.swift */; };
+		883C465C1C6B78C600F2A145 /* IGNetOpsShim.swift in Sources */ = {isa = PBXBuildFile; fileRef = 883C46281C6B78C600F2A145 /* IGNetOpsShim.swift */; };
+		883C465D1C6B78C600F2A145 /* IGOps.swift in Sources */ = {isa = PBXBuildFile; fileRef = 883C46291C6B78C600F2A145 /* IGOps.swift */; };
+		883C465E1C6B78C600F2A145 /* IGPersonData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 883C462A1C6B78C600F2A145 /* IGPersonData.swift */; };
+		883C465F1C6B78C600F2A145 /* Instagram.swift in Sources */ = {isa = PBXBuildFile; fileRef = 883C462B1C6B78C600F2A145 /* Instagram.swift */; };
+		883C46601C6B78C600F2A145 /* InstagramGlobals.swift in Sources */ = {isa = PBXBuildFile; fileRef = 883C462C1C6B78C600F2A145 /* InstagramGlobals.swift */; };
+		883C46611C6B78C600F2A145 /* Matrix.swift in Sources */ = {isa = PBXBuildFile; fileRef = 883C462D1C6B78C600F2A145 /* Matrix.swift */; };
+		883C46621C6B78C600F2A145 /* OUData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 883C462E1C6B78C600F2A145 /* OUData.swift */; };
+		883C46631C6B78C600F2A145 /* PhotoInfoShim.swift in Sources */ = {isa = PBXBuildFile; fileRef = 883C462F1C6B78C600F2A145 /* PhotoInfoShim.swift */; };
+		883C46641C6B78C600F2A145 /* SegueThings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 883C46301C6B78C600F2A145 /* SegueThings.swift */; };
+		883C46651C6B78C600F2A145 /* TableKinds.swift in Sources */ = {isa = PBXBuildFile; fileRef = 883C46311C6B78C600F2A145 /* TableKinds.swift */; };
+		883C46661C6B78C600F2A145 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 883C46321C6B78C600F2A145 /* User.swift */; };
+		883C46671C6B78C600F2A145 /* BattleActionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 883C46341C6B78C600F2A145 /* BattleActionViewController.swift */; };
+		883C46681C6B78C600F2A145 /* BattleSurrenderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 883C46351C6B78C600F2A145 /* BattleSurrenderViewController.swift */; };
+		883C46691C6B78C600F2A145 /* BattleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 883C46361C6B78C600F2A145 /* BattleViewController.swift */; };
+		883C466A1C6B78C600F2A145 /* BoosterFollowersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 883C46371C6B78C600F2A145 /* BoosterFollowersViewController.swift */; };
+		883C466B1C6B78C600F2A145 /* BTPM7x24Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 883C46381C6B78C600F2A145 /* BTPM7x24Controller.swift */; };
+		883C466C1C6B78C600F2A145 /* FollowersTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 883C46391C6B78C600F2A145 /* FollowersTableView.swift */; };
+		883C466D1C6B78C600F2A145 /* FollowingTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 883C463A1C6B78C600F2A145 /* FollowingTableViewController.swift */; };
+		883C466E1C6B78C600F2A145 /* GhostFollowersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 883C463B1C6B78C600F2A145 /* GhostFollowersViewController.swift */; };
+		883C466F1C6B78C600F2A145 /* HeartlessCommentersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 883C463C1C6B78C600F2A145 /* HeartlessCommentersViewController.swift */; };
+		883C46701C6B78C600F2A145 /* HelpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 883C463D1C6B78C600F2A145 /* HelpViewController.swift */; };
+		883C46711C6B78C600F2A145 /* MainScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 883C463E1C6B78C600F2A145 /* MainScreenViewController.swift */; };
+		883C46721C6B78C600F2A145 /* OauthLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 883C463F1C6B78C600F2A145 /* OauthLoginViewController.swift */; };
+		883C46731C6B78C600F2A145 /* PhotoBrowserCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 883C46401C6B78C600F2A145 /* PhotoBrowserCollectionViewController.swift */; };
+		883C46741C6B78C600F2A145 /* PhotoViewerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 883C46411C6B78C600F2A145 /* PhotoViewerViewController.swift */; };
+		883C46751C6B78C600F2A145 /* PrimaryMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 883C46421C6B78C600F2A145 /* PrimaryMenuViewController.swift */; };
+		883C46761C6B78C600F2A145 /* SecretAdmirersViewControlle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 883C46431C6B78C600F2A145 /* SecretAdmirersViewControlle.swift */; };
+		883C46771C6B78C600F2A145 /* SpeechlessLikersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 883C46441C6B78C600F2A145 /* SpeechlessLikersViewController.swift */; };
+		883C46781C6B78C600F2A145 /* TopCommentersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 883C46451C6B78C600F2A145 /* TopCommentersViewController.swift */; };
+		883C46791C6B78C600F2A145 /* TopFollowersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 883C46461C6B78C600F2A145 /* TopFollowersViewController.swift */; };
+		883C467A1C6B78C600F2A145 /* TopLikersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 883C46471C6B78C600F2A145 /* TopLikersViewController.swift */; };
+		883C467B1C6B78C600F2A145 /* TopPostsByCommentsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 883C46481C6B78C600F2A145 /* TopPostsByCommentsViewController.swift */; };
+		883C467C1C6B78C600F2A145 /* TopPostsByLikesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 883C46491C6B78C600F2A145 /* TopPostsByLikesViewController.swift */; };
+		883C467D1C6B78C600F2A145 /* TopPostsSaysFollowersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 883C464A1C6B78C600F2A145 /* TopPostsSaysFollowersViewController.swift */; };
+		883C467E1C6B78C600F2A145 /* UnrequitedFollowersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 883C464B1C6B78C600F2A145 /* UnrequitedFollowersViewController.swift */; };
+		883C467F1C6B78C600F2A145 /* WIPM7x24Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 883C464C1C6B78C600F2A145 /* WIPM7x24Controller.swift */; };
+		883C46801C6B78C600F2A145 /* MainScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 883C464E1C6B78C600F2A145 /* MainScreenView.swift */; };
+		883C46811C6B78C600F2A145 /* TableViewCells.swift in Sources */ = {isa = PBXBuildFile; fileRef = 883C464F1C6B78C600F2A145 /* TableViewCells.swift */; };
+		883C46821C6B78C600F2A145 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 883C46511C6B78C600F2A145 /* Launch Screen.storyboard */; };
+		883C46831C6B78C600F2A145 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 883C46521C6B78C600F2A145 /* Main.storyboard */; };
+		883C46841C6B78C600F2A145 /* Reports.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 883C46531C6B78C600F2A145 /* Reports.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +73,55 @@
 		883C46141C6B75C300F2A145 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		883C46171C6B75C300F2A145 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		883C46191C6B75C300F2A145 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		883C46201C6B78C600F2A145 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		883C46211C6B78C600F2A145 /* BattleZone.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BattleZone.swift; sourceTree = "<group>"; };
+		883C46221C6B78C600F2A145 /* CoreDataStack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreDataStack.swift; sourceTree = "<group>"; };
+		883C46231C6B78C600F2A145 /* FileStuff.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FileStuff.swift; sourceTree = "<group>"; };
+		883C46241C6B78C600F2A145 /* HistogramOps.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HistogramOps.swift; sourceTree = "<group>"; };
+		883C46251C6B78C600F2A145 /* IGDataEngine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IGDataEngine.swift; sourceTree = "<group>"; };
+		883C46261C6B78C600F2A145 /* IGDateSupport.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IGDateSupport.swift; sourceTree = "<group>"; };
+		883C46271C6B78C600F2A145 /* IGJsonShim.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IGJsonShim.swift; sourceTree = "<group>"; };
+		883C46281C6B78C600F2A145 /* IGNetOpsShim.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IGNetOpsShim.swift; sourceTree = "<group>"; };
+		883C46291C6B78C600F2A145 /* IGOps.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IGOps.swift; sourceTree = "<group>"; };
+		883C462A1C6B78C600F2A145 /* IGPersonData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IGPersonData.swift; sourceTree = "<group>"; };
+		883C462B1C6B78C600F2A145 /* Instagram.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Instagram.swift; sourceTree = "<group>"; };
+		883C462C1C6B78C600F2A145 /* InstagramGlobals.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InstagramGlobals.swift; sourceTree = "<group>"; };
+		883C462D1C6B78C600F2A145 /* Matrix.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Matrix.swift; sourceTree = "<group>"; };
+		883C462E1C6B78C600F2A145 /* OUData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OUData.swift; sourceTree = "<group>"; };
+		883C462F1C6B78C600F2A145 /* PhotoInfoShim.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoInfoShim.swift; sourceTree = "<group>"; };
+		883C46301C6B78C600F2A145 /* SegueThings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SegueThings.swift; sourceTree = "<group>"; };
+		883C46311C6B78C600F2A145 /* TableKinds.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableKinds.swift; sourceTree = "<group>"; };
+		883C46321C6B78C600F2A145 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		883C46341C6B78C600F2A145 /* BattleActionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BattleActionViewController.swift; sourceTree = "<group>"; };
+		883C46351C6B78C600F2A145 /* BattleSurrenderViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BattleSurrenderViewController.swift; sourceTree = "<group>"; };
+		883C46361C6B78C600F2A145 /* BattleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BattleViewController.swift; sourceTree = "<group>"; };
+		883C46371C6B78C600F2A145 /* BoosterFollowersViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BoosterFollowersViewController.swift; sourceTree = "<group>"; };
+		883C46381C6B78C600F2A145 /* BTPM7x24Controller.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BTPM7x24Controller.swift; sourceTree = "<group>"; };
+		883C46391C6B78C600F2A145 /* FollowersTableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FollowersTableView.swift; sourceTree = "<group>"; };
+		883C463A1C6B78C600F2A145 /* FollowingTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FollowingTableViewController.swift; sourceTree = "<group>"; };
+		883C463B1C6B78C600F2A145 /* GhostFollowersViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GhostFollowersViewController.swift; sourceTree = "<group>"; };
+		883C463C1C6B78C600F2A145 /* HeartlessCommentersViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeartlessCommentersViewController.swift; sourceTree = "<group>"; };
+		883C463D1C6B78C600F2A145 /* HelpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HelpViewController.swift; sourceTree = "<group>"; };
+		883C463E1C6B78C600F2A145 /* MainScreenViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainScreenViewController.swift; sourceTree = "<group>"; };
+		883C463F1C6B78C600F2A145 /* OauthLoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OauthLoginViewController.swift; sourceTree = "<group>"; };
+		883C46401C6B78C600F2A145 /* PhotoBrowserCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoBrowserCollectionViewController.swift; sourceTree = "<group>"; };
+		883C46411C6B78C600F2A145 /* PhotoViewerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoViewerViewController.swift; sourceTree = "<group>"; };
+		883C46421C6B78C600F2A145 /* PrimaryMenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PrimaryMenuViewController.swift; sourceTree = "<group>"; };
+		883C46431C6B78C600F2A145 /* SecretAdmirersViewControlle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecretAdmirersViewControlle.swift; sourceTree = "<group>"; };
+		883C46441C6B78C600F2A145 /* SpeechlessLikersViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpeechlessLikersViewController.swift; sourceTree = "<group>"; };
+		883C46451C6B78C600F2A145 /* TopCommentersViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TopCommentersViewController.swift; sourceTree = "<group>"; };
+		883C46461C6B78C600F2A145 /* TopFollowersViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TopFollowersViewController.swift; sourceTree = "<group>"; };
+		883C46471C6B78C600F2A145 /* TopLikersViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TopLikersViewController.swift; sourceTree = "<group>"; };
+		883C46481C6B78C600F2A145 /* TopPostsByCommentsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TopPostsByCommentsViewController.swift; sourceTree = "<group>"; };
+		883C46491C6B78C600F2A145 /* TopPostsByLikesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TopPostsByLikesViewController.swift; sourceTree = "<group>"; };
+		883C464A1C6B78C600F2A145 /* TopPostsSaysFollowersViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TopPostsSaysFollowersViewController.swift; sourceTree = "<group>"; };
+		883C464B1C6B78C600F2A145 /* UnrequitedFollowersViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UnrequitedFollowersViewController.swift; sourceTree = "<group>"; };
+		883C464C1C6B78C600F2A145 /* WIPM7x24Controller.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WIPM7x24Controller.swift; sourceTree = "<group>"; };
+		883C464E1C6B78C600F2A145 /* MainScreenView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainScreenView.swift; sourceTree = "<group>"; };
+		883C464F1C6B78C600F2A145 /* TableViewCells.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewCells.swift; sourceTree = "<group>"; };
+		883C46511C6B78C600F2A145 /* Launch Screen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		883C46521C6B78C600F2A145 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		883C46531C6B78C600F2A145 /* Reports.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Reports.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +154,8 @@
 		883C46091C6B75C300F2A145 /* igexplorer */ = {
 			isa = PBXGroup;
 			children = (
+				883C461F1C6B78C600F2A145 /* SocialMaxxCode */,
+				883C46501C6B78C600F2A145 /* SocialMaxxStoryBoards */,
 				883C460A1C6B75C300F2A145 /* AppDelegate.swift */,
 				883C460C1C6B75C300F2A145 /* ViewController.swift */,
 				883C460E1C6B75C300F2A145 /* Main.storyboard */,
@@ -65,6 +165,85 @@
 				883C46111C6B75C300F2A145 /* igexplorer.xcdatamodeld */,
 			);
 			path = igexplorer;
+			sourceTree = "<group>";
+		};
+		883C461F1C6B78C600F2A145 /* SocialMaxxCode */ = {
+			isa = PBXGroup;
+			children = (
+				883C46201C6B78C600F2A145 /* AppDelegate.swift */,
+				883C46211C6B78C600F2A145 /* BattleZone.swift */,
+				883C46221C6B78C600F2A145 /* CoreDataStack.swift */,
+				883C46231C6B78C600F2A145 /* FileStuff.swift */,
+				883C46241C6B78C600F2A145 /* HistogramOps.swift */,
+				883C46251C6B78C600F2A145 /* IGDataEngine.swift */,
+				883C46261C6B78C600F2A145 /* IGDateSupport.swift */,
+				883C46271C6B78C600F2A145 /* IGJsonShim.swift */,
+				883C46281C6B78C600F2A145 /* IGNetOpsShim.swift */,
+				883C46291C6B78C600F2A145 /* IGOps.swift */,
+				883C462A1C6B78C600F2A145 /* IGPersonData.swift */,
+				883C462B1C6B78C600F2A145 /* Instagram.swift */,
+				883C462C1C6B78C600F2A145 /* InstagramGlobals.swift */,
+				883C462D1C6B78C600F2A145 /* Matrix.swift */,
+				883C462E1C6B78C600F2A145 /* OUData.swift */,
+				883C462F1C6B78C600F2A145 /* PhotoInfoShim.swift */,
+				883C46301C6B78C600F2A145 /* SegueThings.swift */,
+				883C46311C6B78C600F2A145 /* TableKinds.swift */,
+				883C46321C6B78C600F2A145 /* User.swift */,
+				883C46331C6B78C600F2A145 /* ViewControllers */,
+				883C464D1C6B78C600F2A145 /* Views */,
+			);
+			path = SocialMaxxCode;
+			sourceTree = "<group>";
+		};
+		883C46331C6B78C600F2A145 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				883C46341C6B78C600F2A145 /* BattleActionViewController.swift */,
+				883C46351C6B78C600F2A145 /* BattleSurrenderViewController.swift */,
+				883C46361C6B78C600F2A145 /* BattleViewController.swift */,
+				883C46371C6B78C600F2A145 /* BoosterFollowersViewController.swift */,
+				883C46381C6B78C600F2A145 /* BTPM7x24Controller.swift */,
+				883C46391C6B78C600F2A145 /* FollowersTableView.swift */,
+				883C463A1C6B78C600F2A145 /* FollowingTableViewController.swift */,
+				883C463B1C6B78C600F2A145 /* GhostFollowersViewController.swift */,
+				883C463C1C6B78C600F2A145 /* HeartlessCommentersViewController.swift */,
+				883C463D1C6B78C600F2A145 /* HelpViewController.swift */,
+				883C463E1C6B78C600F2A145 /* MainScreenViewController.swift */,
+				883C463F1C6B78C600F2A145 /* OauthLoginViewController.swift */,
+				883C46401C6B78C600F2A145 /* PhotoBrowserCollectionViewController.swift */,
+				883C46411C6B78C600F2A145 /* PhotoViewerViewController.swift */,
+				883C46421C6B78C600F2A145 /* PrimaryMenuViewController.swift */,
+				883C46431C6B78C600F2A145 /* SecretAdmirersViewControlle.swift */,
+				883C46441C6B78C600F2A145 /* SpeechlessLikersViewController.swift */,
+				883C46451C6B78C600F2A145 /* TopCommentersViewController.swift */,
+				883C46461C6B78C600F2A145 /* TopFollowersViewController.swift */,
+				883C46471C6B78C600F2A145 /* TopLikersViewController.swift */,
+				883C46481C6B78C600F2A145 /* TopPostsByCommentsViewController.swift */,
+				883C46491C6B78C600F2A145 /* TopPostsByLikesViewController.swift */,
+				883C464A1C6B78C600F2A145 /* TopPostsSaysFollowersViewController.swift */,
+				883C464B1C6B78C600F2A145 /* UnrequitedFollowersViewController.swift */,
+				883C464C1C6B78C600F2A145 /* WIPM7x24Controller.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		883C464D1C6B78C600F2A145 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				883C464E1C6B78C600F2A145 /* MainScreenView.swift */,
+				883C464F1C6B78C600F2A145 /* TableViewCells.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		883C46501C6B78C600F2A145 /* SocialMaxxStoryBoards */ = {
+			isa = PBXGroup;
+			children = (
+				883C46511C6B78C600F2A145 /* Launch Screen.storyboard */,
+				883C46521C6B78C600F2A145 /* Main.storyboard */,
+				883C46531C6B78C600F2A145 /* Reports.storyboard */,
+			);
+			path = SocialMaxxStoryBoards;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,7 +305,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				883C46181C6B75C300F2A145 /* LaunchScreen.storyboard in Resources */,
+				883C46831C6B78C600F2A145 /* Main.storyboard in Resources */,
+				883C46841C6B78C600F2A145 /* Reports.storyboard in Resources */,
 				883C46151C6B75C300F2A145 /* Assets.xcassets in Resources */,
+				883C46821C6B78C600F2A145 /* Launch Screen.storyboard in Resources */,
 				883C46101C6B75C300F2A145 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -138,9 +320,55 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				883C46811C6B78C600F2A145 /* TableViewCells.swift in Sources */,
+				883C46761C6B78C600F2A145 /* SecretAdmirersViewControlle.swift in Sources */,
+				883C467F1C6B78C600F2A145 /* WIPM7x24Controller.swift in Sources */,
+				883C465E1C6B78C600F2A145 /* IGPersonData.swift in Sources */,
+				883C46791C6B78C600F2A145 /* TopFollowersViewController.swift in Sources */,
+				883C466B1C6B78C600F2A145 /* BTPM7x24Controller.swift in Sources */,
+				883C467A1C6B78C600F2A145 /* TopLikersViewController.swift in Sources */,
+				883C46541C6B78C600F2A145 /* AppDelegate.swift in Sources */,
+				883C466C1C6B78C600F2A145 /* FollowersTableView.swift in Sources */,
+				883C46721C6B78C600F2A145 /* OauthLoginViewController.swift in Sources */,
+				883C465B1C6B78C600F2A145 /* IGJsonShim.swift in Sources */,
+				883C465A1C6B78C600F2A145 /* IGDateSupport.swift in Sources */,
+				883C46611C6B78C600F2A145 /* Matrix.swift in Sources */,
+				883C465C1C6B78C600F2A145 /* IGNetOpsShim.swift in Sources */,
+				883C46711C6B78C600F2A145 /* MainScreenViewController.swift in Sources */,
+				883C466F1C6B78C600F2A145 /* HeartlessCommentersViewController.swift in Sources */,
 				883C460D1C6B75C300F2A145 /* ViewController.swift in Sources */,
+				883C466A1C6B78C600F2A145 /* BoosterFollowersViewController.swift in Sources */,
+				883C46551C6B78C600F2A145 /* BattleZone.swift in Sources */,
+				883C46651C6B78C600F2A145 /* TableKinds.swift in Sources */,
+				883C46671C6B78C600F2A145 /* BattleActionViewController.swift in Sources */,
+				883C46781C6B78C600F2A145 /* TopCommentersViewController.swift in Sources */,
+				883C465D1C6B78C600F2A145 /* IGOps.swift in Sources */,
+				883C46771C6B78C600F2A145 /* SpeechlessLikersViewController.swift in Sources */,
+				883C467E1C6B78C600F2A145 /* UnrequitedFollowersViewController.swift in Sources */,
+				883C46751C6B78C600F2A145 /* PrimaryMenuViewController.swift in Sources */,
+				883C467B1C6B78C600F2A145 /* TopPostsByCommentsViewController.swift in Sources */,
+				883C46741C6B78C600F2A145 /* PhotoViewerViewController.swift in Sources */,
+				883C46681C6B78C600F2A145 /* BattleSurrenderViewController.swift in Sources */,
+				883C46661C6B78C600F2A145 /* User.swift in Sources */,
+				883C466E1C6B78C600F2A145 /* GhostFollowersViewController.swift in Sources */,
+				883C46591C6B78C600F2A145 /* IGDataEngine.swift in Sources */,
+				883C46801C6B78C600F2A145 /* MainScreenView.swift in Sources */,
+				883C46691C6B78C600F2A145 /* BattleViewController.swift in Sources */,
+				883C46561C6B78C600F2A145 /* CoreDataStack.swift in Sources */,
+				883C46621C6B78C600F2A145 /* OUData.swift in Sources */,
+				883C465F1C6B78C600F2A145 /* Instagram.swift in Sources */,
+				883C46601C6B78C600F2A145 /* InstagramGlobals.swift in Sources */,
+				883C46641C6B78C600F2A145 /* SegueThings.swift in Sources */,
 				883C46131C6B75C300F2A145 /* igexplorer.xcdatamodeld in Sources */,
+				883C46581C6B78C600F2A145 /* HistogramOps.swift in Sources */,
+				883C46701C6B78C600F2A145 /* HelpViewController.swift in Sources */,
 				883C460B1C6B75C300F2A145 /* AppDelegate.swift in Sources */,
+				883C46571C6B78C600F2A145 /* FileStuff.swift in Sources */,
+				883C467C1C6B78C600F2A145 /* TopPostsByLikesViewController.swift in Sources */,
+				883C467D1C6B78C600F2A145 /* TopPostsSaysFollowersViewController.swift in Sources */,
+				883C46631C6B78C600F2A145 /* PhotoInfoShim.swift in Sources */,
+				883C466D1C6B78C600F2A145 /* FollowingTableViewController.swift in Sources */,
+				883C46731C6B78C600F2A145 /* PhotoBrowserCollectionViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
