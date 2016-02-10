@@ -7,9 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		883C460B1C6B75C300F2A145 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 883C460A1C6B75C300F2A145 /* AppDelegate.swift */; };
-		883C460D1C6B75C300F2A145 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 883C460C1C6B75C300F2A145 /* ViewController.swift */; };
-		883C46101C6B75C300F2A145 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 883C460E1C6B75C300F2A145 /* Main.storyboard */; };
 		883C46131C6B75C300F2A145 /* igexplorer.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 883C46111C6B75C300F2A145 /* igexplorer.xcdatamodeld */; };
 		883C46151C6B75C300F2A145 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 883C46141C6B75C300F2A145 /* Assets.xcassets */; };
 		883C46181C6B75C300F2A145 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 883C46161C6B75C300F2A145 /* LaunchScreen.storyboard */; };
@@ -66,9 +63,6 @@
 
 /* Begin PBXFileReference section */
 		883C46071C6B75C300F2A145 /* igexplorer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = igexplorer.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		883C460A1C6B75C300F2A145 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		883C460C1C6B75C300F2A145 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		883C460F1C6B75C300F2A145 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		883C46121C6B75C300F2A145 /* igexplorer.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = igexplorer.xcdatamodel; sourceTree = "<group>"; };
 		883C46141C6B75C300F2A145 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		883C46171C6B75C300F2A145 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -156,9 +150,6 @@
 			children = (
 				883C461F1C6B78C600F2A145 /* SocialMaxxCode */,
 				883C46501C6B78C600F2A145 /* SocialMaxxStoryBoards */,
-				883C460A1C6B75C300F2A145 /* AppDelegate.swift */,
-				883C460C1C6B75C300F2A145 /* ViewController.swift */,
-				883C460E1C6B75C300F2A145 /* Main.storyboard */,
 				883C46141C6B75C300F2A145 /* Assets.xcassets */,
 				883C46161C6B75C300F2A145 /* LaunchScreen.storyboard */,
 				883C46191C6B75C300F2A145 /* Info.plist */,
@@ -309,7 +300,6 @@
 				883C46841C6B78C600F2A145 /* Reports.storyboard in Resources */,
 				883C46151C6B75C300F2A145 /* Assets.xcassets in Resources */,
 				883C46821C6B78C600F2A145 /* Launch Screen.storyboard in Resources */,
-				883C46101C6B75C300F2A145 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -336,7 +326,6 @@
 				883C465C1C6B78C600F2A145 /* IGNetOpsShim.swift in Sources */,
 				883C46711C6B78C600F2A145 /* MainScreenViewController.swift in Sources */,
 				883C466F1C6B78C600F2A145 /* HeartlessCommentersViewController.swift in Sources */,
-				883C460D1C6B75C300F2A145 /* ViewController.swift in Sources */,
 				883C466A1C6B78C600F2A145 /* BoosterFollowersViewController.swift in Sources */,
 				883C46551C6B78C600F2A145 /* BattleZone.swift in Sources */,
 				883C46651C6B78C600F2A145 /* TableKinds.swift in Sources */,
@@ -362,7 +351,6 @@
 				883C46131C6B75C300F2A145 /* igexplorer.xcdatamodeld in Sources */,
 				883C46581C6B78C600F2A145 /* HistogramOps.swift in Sources */,
 				883C46701C6B78C600F2A145 /* HelpViewController.swift in Sources */,
-				883C460B1C6B75C300F2A145 /* AppDelegate.swift in Sources */,
 				883C46571C6B78C600F2A145 /* FileStuff.swift in Sources */,
 				883C467C1C6B78C600F2A145 /* TopPostsByLikesViewController.swift in Sources */,
 				883C467D1C6B78C600F2A145 /* TopPostsSaysFollowersViewController.swift in Sources */,
@@ -375,14 +363,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		883C460E1C6B75C300F2A145 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				883C460F1C6B75C300F2A145 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		883C46161C6B75C300F2A145 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
