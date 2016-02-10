@@ -84,9 +84,9 @@
 		8803287E1C6B7F6B0019DC5C /* FICImports.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FICImports.h; sourceTree = "<group>"; };
 		8803287F1C6B7F6B0019DC5C /* FICUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FICUtilities.h; sourceTree = "<group>"; };
 		880328801C6B7F6B0019DC5C /* FICUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FICUtilities.m; sourceTree = "<group>"; };
-		880328871C6B7F8D0019DC5C /* FastImageCache.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FastImageCache.h; sourceTree = SOURCE_ROOT; };
 		8803288E1C6B8CA30019DC5C /* IGAppUser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IGAppUser.swift; sourceTree = "<group>"; };
 		880328B61C6BC8F10019DC5C /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		880328B81C6BCB060019DC5C /* FastImageCache.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FastImageCache.h; sourceTree = "<group>"; };
 		883C46071C6B75C300F2A145 /* igexplorer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = igexplorer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		883C46141C6B75C300F2A145 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		883C46171C6B75C300F2A145 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -155,7 +155,7 @@
 		880328711C6B7F6B0019DC5C /* FastImageCache */ = {
 			isa = PBXGroup;
 			children = (
-				880328871C6B7F8D0019DC5C /* FastImageCache.h */,
+				880328B81C6BCB060019DC5C /* FastImageCache.h */,
 				880328721C6B7F6B0019DC5C /* FICEntity.h */,
 				880328731C6B7F6B0019DC5C /* FICImageCache+FICErrorLogging.h */,
 				880328741C6B7F6B0019DC5C /* FICImageCache.h */,
