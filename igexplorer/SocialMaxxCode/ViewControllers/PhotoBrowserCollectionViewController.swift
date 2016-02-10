@@ -2,13 +2,11 @@
 //  SocialMaxxCollectionViewController.swift
 //  SocialMaxx
 //
-//  Created by SocialMax on 12/22/14.
-//  Copyright (c) 2014 SocialMax. All rights reserved.
+// Originally based on EdwardZhous PhotoBrowser
 //
 
 import UIKit
 import Foundation
-import CoreData
 
 class PhotoBrowserCollectionViewController: UICollectionViewController, UICollectionViewDelegateFlowLayout {
     
@@ -17,7 +15,7 @@ class PhotoBrowserCollectionViewController: UICollectionViewController, UICollec
     let formatName = KMSmallImageFormatName
     var shouldLogin = false
     var shouldHump = false
-    var user: User? {
+    var user: IGAppUser? {
         didSet {
             if user != nil {
                 handleRefresh()
@@ -34,8 +32,6 @@ class PhotoBrowserCollectionViewController: UICollectionViewController, UICollec
     let refreshControl = UIRefreshControl()
     var populatingPhotos = false
     var nextURLRequest: NSURLRequest?
-    var coreDataStack: CoreDataStack!
-    
     let PhotoBrowserCellIdentifier = "PhotoBrowserCell"
     let PhotoBrowserFooterViewIdentifier = "PhotoBrowserFooterView"
     
@@ -45,15 +41,7 @@ class PhotoBrowserCollectionViewController: UICollectionViewController, UICollec
         super.viewDidLoad()
         setupView()
         
-        if let fetchRequest = coreDataStack.model.fetchRequestTemplateForName("UserFetchRequest") {
-            
-            let results = try! coreDataStack.context.executeFetchRequest(fetchRequest) as! [User]
-            user = results.first
-            shouldHump = true
-        } else {
-            shouldHump = false
-        }
-        
+       shouldHump = Globals.shared.igLoggedOnUserID != ""
     }
     
     override func viewDidAppear(animated: Bool) {
@@ -209,14 +197,9 @@ class PhotoBrowserCollectionViewController: UICollectionViewController, UICollec
                 let photoViewerViewController = segue.destinationViewController as! PhotoViewerViewController
                 photoViewerViewController.photoInfo = sender?.valueForKey("photoInfo") as? PhotoInfo
             } else if segue.identifier == "login" && segue.destinationViewController.isKindOfClass(UINavigationController.classForCoder()) {
-                let navigationController = segue.destinationViewController as! UINavigationController
-                if let oauthLoginViewController = navigationController.topViewController as? OauthLoginViewController {
-                    oauthLoginViewController.coreDataStack = coreDataStack
-                }
-                
                 if self.user != nil {
-                    coreDataStack.context.deleteObject(user!)
-                    coreDataStack.saveContext()
+                    
+                    Globals.shared.igAppUser.deleteOnLogout()
                     
                 }
         }

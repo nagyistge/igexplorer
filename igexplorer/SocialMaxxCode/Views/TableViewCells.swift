@@ -6,7 +6,7 @@
 //  Copyright © 2016 Bill Donner. All rights reserved.
 //
 
-import Foundation
+import UIKit
 
 struct TVC {
 static func configPerson(cell:UITableViewCell,igPerson:OU.UserData,battleResults:PlayOnBattleResults) {

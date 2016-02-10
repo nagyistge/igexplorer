@@ -30,7 +30,6 @@ final class Globals {
     
     var showPrompts = true
     let dateFormatter = NSDateFormatter() // expensive
-    
-    
+    let igAppUser = IGAppUser() // only need one of these
 
 }

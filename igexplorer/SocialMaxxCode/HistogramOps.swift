@@ -6,7 +6,8 @@
 //  Copyright © 2016 SocialMax. All rights reserved.
 //
 
-import Foundation
+import UIKit
+
 typealias ColorFunc = (Double -> UIColor )
 struct DrawnHisto {
     static  func bColorFunc(quint:Double)->UIColor {

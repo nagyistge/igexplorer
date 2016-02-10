@@ -8,12 +8,10 @@
 
 import UIKit
 import Foundation
-import CoreData
 
 class OauthLoginViewController: UIViewController {
     
     @IBOutlet weak var webView: UIWebView!
-    var coreDataStack: CoreDataStack!
     override func viewDidLoad() {
         super.viewDidLoad()
     }
@@ -38,7 +36,7 @@ class OauthLoginViewController: UIViewController {
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
         if segue.identifier == "unwindToPhotoBrowser" && segue.destinationViewController.isKindOfClass(PhotoBrowserCollectionViewController.classForCoder()) {
             let photoBrowserCollectionViewController = segue.destinationViewController as! PhotoBrowserCollectionViewController
-            if let user = sender?.valueForKey("user") as? User {
+            if let user = sender?.valueForKey("user") as? IGAppUser {
                 photoBrowserCollectionViewController.user = user
             }
         }
@@ -76,11 +74,15 @@ extension OauthLoginViewController: UIWebViewDelegate {
                 
             IGJSON.parseIgJSONOAuth(jsonObject!) {accessToken,userID in
                 
-                let user = NSEntityDescription.insertNewObjectForEntityForName("User", inManagedObjectContext: self.coreDataStack.context) as! User
-                user.userID = userID
-                user.accessToken = accessToken
-                self.coreDataStack.saveContext()
-                self.performSegueWithIdentifier("unwindToPhotoBrowser", sender: ["user": user])
+                
+//                let user = Globals.shared.igAppUser
+//                
+//                user.userID = userID
+//                user.accessToken = accessToken
+                
+                
+                Globals.shared.igAppUser.save(userID,accessToken)
+                self.performSegueWithIdentifier("unwindToPhotoBrowser", sender: ["user":  Globals.shared.igAppUser])
             } // parse closure
         } // post closure
         }

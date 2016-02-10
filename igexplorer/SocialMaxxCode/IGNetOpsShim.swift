@@ -6,7 +6,8 @@
 //  Copyright © 2016 Bill Donner. All rights reserved.
 //
 
-import Foundation
+import UIKit
+
 typealias NetCompletionFunc = (status: Int, object: AnyObject?) -> ()
 typealias NetImgCompletionFunc = (status: Int, object: UIImage?) -> ()
 

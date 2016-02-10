@@ -9,8 +9,7 @@
 // all references to fastimagecache from Parse are in this one file
 // hopefully I'll rewrite this someday as pure Swift
 
-import Foundation
-import FastImageCache
+import UIKit
 
 let KMPhotoImageFormatFamily = "KMPhotoImageFormatFamily"
 let KMSmallImageFormatName = "KMSmallImageFormatName"

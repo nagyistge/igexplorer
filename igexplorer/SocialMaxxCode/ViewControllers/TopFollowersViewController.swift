@@ -6,6 +6,7 @@
 //  Copyright © 2016 Bill Donner. All rights reserved.
 //
 
+import UIKit
 
 class TopFollowersViewController: UIViewController, FollowersTableKind, SegueThing  {
     var igp : OU! // property passed in

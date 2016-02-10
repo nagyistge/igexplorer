@@ -11,7 +11,6 @@
 
 import Foundation
 
-import SwiftyJSON
 
 
 struct IGJSON {

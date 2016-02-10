@@ -6,7 +6,7 @@
 //  Copyright © 2016 Bill Donner. All rights reserved.
 //
 
-import Foundation
+import UIKit
 
 
 class FollowersTableView : UITableView {
