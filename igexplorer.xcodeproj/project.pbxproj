@@ -14,6 +14,7 @@
 		880328851C6B7F6B0019DC5C /* FICImageTableEntry.m in Sources */ = {isa = PBXBuildFile; fileRef = 8803287D1C6B7F6B0019DC5C /* FICImageTableEntry.m */; };
 		880328861C6B7F6B0019DC5C /* FICUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 880328801C6B7F6B0019DC5C /* FICUtilities.m */; };
 		8803288F1C6B8CA30019DC5C /* IGAppUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8803288E1C6B8CA30019DC5C /* IGAppUser.swift */; };
+		880328B71C6BC8F10019DC5C /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 880328B61C6BC8F10019DC5C /* README.md */; };
 		883C46151C6B75C300F2A145 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 883C46141C6B75C300F2A145 /* Assets.xcassets */; };
 		883C46181C6B75C300F2A145 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 883C46161C6B75C300F2A145 /* LaunchScreen.storyboard */; };
 		883C46541C6B78C600F2A145 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 883C46201C6B78C600F2A145 /* AppDelegate.swift */; };
@@ -85,6 +86,7 @@
 		880328801C6B7F6B0019DC5C /* FICUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FICUtilities.m; sourceTree = "<group>"; };
 		880328871C6B7F8D0019DC5C /* FastImageCache.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FastImageCache.h; sourceTree = "<group>"; };
 		8803288E1C6B8CA30019DC5C /* IGAppUser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IGAppUser.swift; sourceTree = "<group>"; };
+		880328B61C6BC8F10019DC5C /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		883C46071C6B75C300F2A145 /* igexplorer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = igexplorer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		883C46141C6B75C300F2A145 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		883C46171C6B75C300F2A145 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -175,6 +177,7 @@
 		883C45FE1C6B75C300F2A145 = {
 			isa = PBXGroup;
 			children = (
+				880328B61C6BC8F10019DC5C /* README.md */,
 				880328871C6B7F8D0019DC5C /* FastImageCache.h */,
 				880328711C6B7F6B0019DC5C /* FastImageCache */,
 				883C469B1C6B7B3C00F2A145 /* SwiftyJSON */,
@@ -375,6 +378,7 @@
 				883C466B1C6B78C600F2A145 /* BTPM7x24Controller.swift in Sources */,
 				883C467A1C6B78C600F2A145 /* TopLikersViewController.swift in Sources */,
 				883C46541C6B78C600F2A145 /* AppDelegate.swift in Sources */,
+				880328B71C6BC8F10019DC5C /* README.md in Sources */,
 				883C466C1C6B78C600F2A145 /* FollowersTableView.swift in Sources */,
 				883C46721C6B78C600F2A145 /* OauthLoginViewController.swift in Sources */,
 				883C465B1C6B78C600F2A145 /* IGJsonShim.swift in Sources */,
