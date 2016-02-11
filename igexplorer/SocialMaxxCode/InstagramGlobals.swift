@@ -28,8 +28,13 @@ final class Globals {
     var igLoggedOnUserID : String!
     var igAccessToken : String!
     
-    var showPrompts = true
+    var showPrompts = false 
     let dateFormatter = NSDateFormatter() // expensive
     let igAppUser = IGAppUser() // only need one of these
+    
+    init() {
+        
+        print ("******Globals inited userid \(igAppUser)")
+    }
 
 }

@@ -40,8 +40,13 @@ class PhotoBrowserCollectionViewController: UICollectionViewController, UICollec
     override func viewDidLoad() {
         super.viewDidLoad()
         setupView()
-        
-       shouldHump = Globals.shared.igLoggedOnUserID != ""
+       if Globals.shared.igAppUser.accessToken != "" {
+            user = Globals.shared.igAppUser
+            shouldHump = true
+        } else {
+            user = nil // trigger the did set
+            shouldHump = false
+        }
     }
     
     override func viewDidAppear(animated: Bool) {
@@ -51,6 +56,7 @@ class PhotoBrowserCollectionViewController: UICollectionViewController, UICollec
             shouldLogin = false
         } else         if shouldHump {
             performSegueWithIdentifier("showigcontrollerssegueid", sender: self)
+            // ******* think we should leave this alone 
             shouldHump = false
         }
         
