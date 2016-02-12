@@ -145,7 +145,7 @@ class PhotoBrowserCollectionViewController: UICollectionViewController, UICollec
             defer {
                 self.populatingPhotos = false
             }
-                dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_HIGH, 0)) {
+              //  dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_HIGH, 0)) {
                     IGJSON.parseIgJSONPicsStandard(jsonObject!) {url ,photoInfos in
                         
                         if url != nil {
@@ -157,10 +157,10 @@ class PhotoBrowserCollectionViewController: UICollectionViewController, UICollec
                         self.photos.appendContentsOf(photoInfos)
                         
                         let indexPaths = (lastItem..<self.photos.count).map { NSIndexPath(forItem: $0, inSection: 0) }
-                        dispatch_async(dispatch_get_main_queue()) {
+                      //  dispatch_async(dispatch_get_main_queue()) {
                             self.collectionView!.insertItemsAtIndexPaths(indexPaths)
-                        }
-                    }
+                   // //    }
+                   // }
                 }
         }
     }
