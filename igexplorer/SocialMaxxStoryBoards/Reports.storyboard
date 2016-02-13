@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10089" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vx2-9m-WBq">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9532" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vx2-9m-WBq">
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10072.1"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
         <!--People-->
         <scene sceneID="C72-LZ-oxr">
             <objects>
-                <viewController id="erj-tw-ysM" customClass="PeopleReportsMenuViewController" customModule="PhotoBrowser" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="erj-tw-ysM" customClass="PeopleReportsMenuViewController" customModule="igexplorer" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="ZB3-cD-Luc"/>
                         <viewControllerLayoutGuide type="bottom" id="Woq-94-Nfo"/>
@@ -32,7 +32,7 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3Ad-kW-9ma">
-                                        <rect key="frame" x="125" y="107" width="310" height="108"/>
+                                        <rect key="frame" x="125" y="107" width="310" height="107"/>
                                         <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                         <state key="normal" title="Top Likers - Users with Highest Total Likes">
                                             <color key="titleColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="calibratedRGB"/>
@@ -42,7 +42,7 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dJa-3t-3On">
-                                        <rect key="frame" x="78" y="215" width="404" height="107"/>
+                                        <rect key="frame" x="78" y="214" width="404" height="108"/>
                                         <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                         <state key="normal" title="Top Commenters - Users With Highest Total Comments">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -52,7 +52,7 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="msP-B6-TVO">
-                                        <rect key="frame" x="118" y="322" width="324" height="108"/>
+                                        <rect key="frame" x="118" y="322" width="324" height="107"/>
                                         <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                         <state key="normal" title="Speechless Likers - Have Never Commented">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -98,7 +98,7 @@
         <!--Followers-->
         <scene sceneID="zmP-rY-LvG">
             <objects>
-                <viewController id="Ufn-am-dPk" customClass="SpecialFollowersReportsMenuViewController" customModule="PhotoBrowser" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="Ufn-am-dPk" customClass="SpecialFollowersReportsMenuViewController" customModule="igexplorer" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="aG7-QI-vGp"/>
                         <viewControllerLayoutGuide type="bottom" id="4zW-oW-kid"/>
@@ -111,7 +111,7 @@
                                 <rect key="frame" x="20" y="64" width="560" height="536"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PJZ-qt-xla">
-                                        <rect key="frame" x="125" y="0.0" width="311" height="90"/>
+                                        <rect key="frame" x="125" y="0.0" width="311" height="89"/>
                                         <state key="normal" title="Booster Followers With Highest Avg Like Rate">
                                             <color key="titleColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="calibratedRGB"/>
                                         </state>
@@ -120,7 +120,7 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="igR-8O-Idp">
-                                        <rect key="frame" x="135" y="90" width="291" height="89"/>
+                                        <rect key="frame" x="135" y="89" width="291" height="90"/>
                                         <state key="normal" title="Ghost Followers Who Dont Like Your Posts">
                                             <color key="titleColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="calibratedRGB"/>
                                         </state>
@@ -129,7 +129,7 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fnf-oh-EWG">
-                                        <rect key="frame" x="126" y="179" width="308" height="90"/>
+                                        <rect key="frame" x="126" y="179" width="308" height="89"/>
                                         <state key="normal" title="Unrequited Followers Whom You Dont Follow">
                                             <color key="titleColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="calibratedRGB"/>
                                         </state>
@@ -138,7 +138,7 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ovo-ti-q9s">
-                                        <rect key="frame" x="138" y="268" width="285" height="90"/>
+                                        <rect key="frame" x="138" y="268" width="285" height="89"/>
                                         <state key="normal" title="Secret Admirer Followers With Most Likes">
                                             <color key="titleColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="calibratedRGB"/>
                                         </state>
@@ -147,11 +147,11 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZyK-qy-wya">
-                                        <rect key="frame" x="150" y="358" width="261" height="89"/>
+                                        <rect key="frame" x="150" y="357" width="261" height="90"/>
                                         <state key="normal" title="Followers Gained and Lost Last Month"/>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FcU-M2-Fux">
-                                        <rect key="frame" x="152" y="447" width="256" height="90"/>
+                                        <rect key="frame" x="152" y="447" width="256" height="89"/>
                                         <state key="normal" title="Followers Gained and Lost Last Week"/>
                                     </button>
                                 </subviews>
@@ -175,7 +175,7 @@
         <!--Posts-->
         <scene sceneID="cId-Or-eaS">
             <objects>
-                <viewController id="vx2-9m-WBq" customClass="PrimaryMenuViewController" customModule="PhotoBrowser" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="PrimaryMenuViewController" id="vx2-9m-WBq" customClass="PrimaryMenuViewController" customModule="igexplorer" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="3lz-rZ-ONH"/>
                         <viewControllerLayoutGuide type="bottom" id="xfD-RR-S6A"/>
@@ -188,14 +188,16 @@
                                 <rect key="frame" x="20" y="0.0" width="560" height="506"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xgw-yQ-WYq">
-                                        <rect key="frame" x="0.0" y="0.0" width="560" height="85"/>
-                                        <state key="normal" title="Test Report"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="560" height="84"/>
+                                        <state key="normal" title="Test Report">
+                                            <color key="titleColor" red="0.66666666666666663" green="0.66666666666666663" blue="0.66666666666666663" alpha="1" colorSpace="calibratedRGB"/>
+                                        </state>
                                         <connections>
                                             <segue destination="eMG-z5-Yvc" kind="show" id="OdZ-yb-qC7"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WNa-le-oyf">
-                                        <rect key="frame" x="0.0" y="85" width="560" height="84"/>
+                                        <rect key="frame" x="0.0" y="84" width="560" height="85"/>
                                         <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                         <state key="normal" title="When I Post">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -205,7 +207,7 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="h48-rc-Iuc">
-                                        <rect key="frame" x="0.0" y="169" width="560" height="85"/>
+                                        <rect key="frame" x="0.0" y="169" width="560" height="84"/>
                                         <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                         <state key="normal" title="When Should I Post?">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -215,7 +217,7 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9If-su-Cdu">
-                                        <rect key="frame" x="0.0" y="253" width="560" height="85"/>
+                                        <rect key="frame" x="0.0" y="253" width="560" height="84"/>
                                         <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                         <state key="normal" title="Posts With Most and Least Likes">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -225,7 +227,7 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jLV-Of-KOE" userLabel="Posts Most and Least Likes With Followers">
-                                        <rect key="frame" x="0.0" y="338" width="560" height="84"/>
+                                        <rect key="frame" x="0.0" y="337" width="560" height="85"/>
                                         <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                         <state key="normal" title="Posts Most and Least Likes With Followers">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -235,7 +237,7 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="n81-Dk-jU6">
-                                        <rect key="frame" x="0.0" y="422" width="560" height="85"/>
+                                        <rect key="frame" x="0.0" y="422" width="560" height="84"/>
                                         <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                         <state key="normal" title="Posts With Most and Least Comments">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -247,7 +249,7 @@
                                 </subviews>
                             </stackView>
                         </subviews>
-                        <color key="backgroundColor" red="0.9767052531" green="0.60546392199999999" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" red="0.090196078430000007" green="0.16078431369999999" blue="0.20784313730000001" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstItem="xfD-RR-S6A" firstAttribute="top" secondItem="ss1-Fj-MMb" secondAttribute="bottom" id="DUU-16-a5Y"/>
                             <constraint firstItem="ss1-Fj-MMb" firstAttribute="top" secondItem="3lz-rZ-ONH" secondAttribute="bottom" id="SKg-8n-n7j"/>
@@ -272,7 +274,7 @@
         <!--Calc Fail Controller-->
         <scene sceneID="T4N-MS-LXB">
             <objects>
-                <viewController id="eMG-z5-Yvc" customClass="CalcFailController" customModule="PhotoBrowser" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="eMG-z5-Yvc" customClass="CalcFailController" customModule="igexplorer" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="MXf-fc-3UX"/>
                         <viewControllerLayoutGuide type="bottom" id="VaF-iR-YV9"/>
@@ -288,7 +290,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
-                        <color key="backgroundColor" red="0.9767052531" green="0.60546392199999999" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" red="0.090196078430000007" green="0.16078431369999999" blue="0.20784313730000001" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstItem="VaF-iR-YV9" firstAttribute="top" secondItem="Odc-w9-Qrm" secondAttribute="bottom" id="lrZ-gy-ahk"/>
                             <constraint firstAttribute="trailingMargin" secondItem="Odc-w9-Qrm" secondAttribute="trailing" id="qAA-b7-dXc"/>
@@ -307,7 +309,7 @@
         <!--WIPM7x24-->
         <scene sceneID="JVu-CL-lnP">
             <objects>
-                <viewController title="WIPM7x24" id="siz-At-rri" customClass="WIPM7x24Controller" customModule="PhotoBrowser" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="WIPM7x24" id="siz-At-rri" customClass="WIPM7x24Controller" customModule="igexplorer" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="HVG-eZ-Nej"/>
                         <viewControllerLayoutGuide type="bottom" id="A4B-Rr-585"/>
@@ -318,7 +320,7 @@
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="zH9-SL-sos">
                                 <rect key="frame" x="0.0" y="0.0" width="600" height="536"/>
-                                <color key="backgroundColor" red="0.9767052531" green="0.60546392199999999" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="backgroundColor" red="0.090196078430000007" green="0.16078431369999999" blue="0.20784313730000001" alpha="1" colorSpace="calibratedRGB"/>
                             </view>
                         </subviews>
                         <color key="backgroundColor" red="0.87506032460000005" green="0.8505814626" blue="1" alpha="1" colorSpace="calibratedRGB"/>
@@ -340,7 +342,7 @@
         <!--BTPM7x24-->
         <scene sceneID="fB6-vb-lpl">
             <objects>
-                <viewController title="BTPM7x24" id="ugx-gb-s68" customClass="BTPM7x24Controller" customModule="PhotoBrowser" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="BTPM7x24" id="ugx-gb-s68" customClass="BTPM7x24Controller" customModule="igexplorer" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="nex-go-5CE"/>
                         <viewControllerLayoutGuide type="bottom" id="NWg-es-C5e"/>
@@ -348,7 +350,7 @@
                     <view key="view" contentMode="scaleToFill" id="v9j-Zq-FFW">
                         <rect key="frame" x="0.0" y="64" width="600" height="536"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" red="0.9767052531" green="0.60546392199999999" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" red="0.090196078430000007" green="0.16078431369999999" blue="0.20784313730000001" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
                     <extendedEdge key="edgesForExtendedLayout"/>
                     <navigationItem key="navigationItem" title="When Should I Post?" id="Ief-dD-dn1"/>
@@ -361,17 +363,17 @@
         <!--Top Commenters-->
         <scene sceneID="i2K-2Z-Wpz">
             <objects>
-                <tableViewController storyboardIdentifier="TopCommentersViewControllerID" title="Top Commenters" id="ARG-Xr-hby" customClass="TopCommentersViewController" customModule="PhotoBrowser" customModuleProvider="target" sceneMemberID="viewController">
-                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="59" sectionHeaderHeight="28" sectionFooterHeight="28" id="2MX-Ea-eJM">
+                <tableViewController storyboardIdentifier="TopCommentersViewControllerID" title="Top Commenters" id="ARG-Xr-hby" customClass="TopCommentersViewController" customModule="igexplorer" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="59" sectionHeaderHeight="28" sectionFooterHeight="28" id="2MX-Ea-eJM">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="MediaLikedTableReuseIdentifier" textLabel="hTx-2v-FGu" detailTextLabel="lp0-f2-hmP" style="IBUITableViewCellStyleSubtitle" id="XDd-93-ilo" customClass="PeoplesTypeTableViewCell" customModule="PhotoBrowser" customModuleProvider="target">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="MediaLikedTableReuseIdentifier" textLabel="hTx-2v-FGu" detailTextLabel="lp0-f2-hmP" style="IBUITableViewCellStyleSubtitle" id="XDd-93-ilo" customClass="PeoplesTypeTableViewCell" customModule="igexplorer" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="122" width="600" height="59"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="XDd-93-ilo" id="Uk7-Vz-rWV">
-                                    <rect key="frame" x="0.0" y="0.0" width="600" height="58.5"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="600" height="59"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="hTx-2v-FGu">
@@ -383,7 +385,7 @@
                                             <nil key="highlightedColor"/>
                                         </label>
                                         <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Detail" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="lp0-f2-hmP">
-                                            <rect key="frame" x="15" y="33" width="37.5" height="17"/>
+                                            <rect key="frame" x="15" y="33" width="38" height="17"/>
                                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="14"/>
@@ -417,17 +419,17 @@
         <!--Hearless Commenters-->
         <scene sceneID="Fid-se-KB2">
             <objects>
-                <tableViewController storyboardIdentifier="HeartlessCommentersViewControllerID" title="Hearless Commenters" id="Zn5-Dl-CzS" customClass="HeartlessCommentersViewController" customModule="PhotoBrowser" customModuleProvider="target" sceneMemberID="viewController">
-                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="59" sectionHeaderHeight="28" sectionFooterHeight="28" id="JvD-ah-tVS">
+                <tableViewController storyboardIdentifier="HeartlessCommentersViewControllerID" title="Hearless Commenters" id="Zn5-Dl-CzS" customClass="HeartlessCommentersViewController" customModule="igexplorer" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="59" sectionHeaderHeight="28" sectionFooterHeight="28" id="JvD-ah-tVS">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="MediaLikedTableReuseIdentifier" textLabel="Hgk-JE-Eqb" detailTextLabel="3L7-8p-oWe" style="IBUITableViewCellStyleSubtitle" id="m61-Pn-0xm" customClass="PeoplesTypeTableViewCell" customModule="PhotoBrowser" customModuleProvider="target">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="MediaLikedTableReuseIdentifier" textLabel="Hgk-JE-Eqb" detailTextLabel="3L7-8p-oWe" style="IBUITableViewCellStyleSubtitle" id="m61-Pn-0xm" customClass="PeoplesTypeTableViewCell" customModule="igexplorer" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="122" width="600" height="59"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="m61-Pn-0xm" id="Btu-rV-vRy">
-                                    <rect key="frame" x="0.0" y="0.0" width="600" height="58.5"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="600" height="59"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Hgk-JE-Eqb">
@@ -439,7 +441,7 @@
                                             <nil key="highlightedColor"/>
                                         </label>
                                         <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Detail" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="3L7-8p-oWe">
-                                            <rect key="frame" x="15" y="33" width="37.5" height="17"/>
+                                            <rect key="frame" x="15" y="33" width="38" height="17"/>
                                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="14"/>
@@ -473,17 +475,17 @@
         <!--Top Likers-->
         <scene sceneID="Qfz-Rm-F5J">
             <objects>
-                <tableViewController storyboardIdentifier="TopLikersViewControllerID" title="Top Likers" id="IWM-Kn-YrB" customClass="TopLikersViewController" customModule="PhotoBrowser" customModuleProvider="target" sceneMemberID="viewController">
-                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="59" sectionHeaderHeight="28" sectionFooterHeight="28" id="svV-Cp-fPh">
+                <tableViewController storyboardIdentifier="TopLikersViewControllerID" title="Top Likers" id="IWM-Kn-YrB" customClass="TopLikersViewController" customModule="igexplorer" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="59" sectionHeaderHeight="28" sectionFooterHeight="28" id="svV-Cp-fPh">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="MediaLikedTableReuseIdentifier" textLabel="ZDh-4R-8gf" detailTextLabel="Hr4-B9-YKS" style="IBUITableViewCellStyleSubtitle" id="hH0-ZM-m63" customClass="PeoplesTypeTableViewCell" customModule="PhotoBrowser" customModuleProvider="target">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="MediaLikedTableReuseIdentifier" textLabel="ZDh-4R-8gf" detailTextLabel="Hr4-B9-YKS" style="IBUITableViewCellStyleSubtitle" id="hH0-ZM-m63" customClass="PeoplesTypeTableViewCell" customModule="igexplorer" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="122" width="600" height="59"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="hH0-ZM-m63" id="R4x-rb-ecr">
-                                    <rect key="frame" x="0.0" y="0.0" width="600" height="58.5"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="600" height="59"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="ZDh-4R-8gf">
@@ -495,7 +497,7 @@
                                             <nil key="highlightedColor"/>
                                         </label>
                                         <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Detail" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Hr4-B9-YKS">
-                                            <rect key="frame" x="15" y="33" width="37.5" height="17"/>
+                                            <rect key="frame" x="15" y="33" width="38" height="17"/>
                                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="14"/>
@@ -503,7 +505,7 @@
                                             <nil key="highlightedColor"/>
                                         </label>
                                     </subviews>
-                                    <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="backgroundColor" red="0.66666666666666663" green="0.66666666666666663" blue="0.66666666666666663" alpha="1" colorSpace="calibratedRGB"/>
                                 </tableViewCellContentView>
                             </tableViewCell>
                         </prototypes>
@@ -529,17 +531,17 @@
         <!--Speechless Likers-->
         <scene sceneID="1j4-ya-ifG">
             <objects>
-                <tableViewController storyboardIdentifier="SpeechlessLikersViewControllerID" title="Speechless Likers" id="19D-o1-95o" customClass="SpeechlessLikersViewController" customModule="PhotoBrowser" customModuleProvider="target" sceneMemberID="viewController">
-                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="59" sectionHeaderHeight="28" sectionFooterHeight="28" id="hqg-zQ-YVp">
+                <tableViewController storyboardIdentifier="SpeechlessLikersViewControllerID" title="Speechless Likers" id="19D-o1-95o" customClass="SpeechlessLikersViewController" customModule="igexplorer" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" allowsSelection="NO" rowHeight="59" sectionHeaderHeight="28" sectionFooterHeight="28" id="hqg-zQ-YVp">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="MediaLikedTableReuseIdentifier" textLabel="w0K-dd-qRt" detailTextLabel="JXL-gg-6OP" style="IBUITableViewCellStyleSubtitle" id="Naq-bx-Xls" customClass="PeoplesTypeTableViewCell" customModule="PhotoBrowser" customModuleProvider="target">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="MediaLikedTableReuseIdentifier" textLabel="w0K-dd-qRt" detailTextLabel="JXL-gg-6OP" style="IBUITableViewCellStyleSubtitle" id="Naq-bx-Xls" customClass="PeoplesTypeTableViewCell" customModule="igexplorer" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="122" width="600" height="59"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Naq-bx-Xls" id="7F1-56-QKY">
-                                    <rect key="frame" x="0.0" y="0.0" width="600" height="58.5"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="600" height="58"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="w0K-dd-qRt">
@@ -551,7 +553,7 @@
                                             <nil key="highlightedColor"/>
                                         </label>
                                         <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Detail" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="JXL-gg-6OP">
-                                            <rect key="frame" x="15" y="33" width="37.5" height="17"/>
+                                            <rect key="frame" x="15" y="33" width="38" height="17"/>
                                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="14"/>
@@ -585,17 +587,17 @@
         <!--Top Posts By Comments-->
         <scene sceneID="CM1-W1-FAZ">
             <objects>
-                <tableViewController storyboardIdentifier="TopPostsByCommentsViewControllerID" title="TopPostsByLikesView" id="dv7-xz-n5A" userLabel="Top Posts By Comments" customClass="TopPostsByCommentsViewController" customModule="PhotoBrowser" customModuleProvider="target" sceneMemberID="viewController">
-                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="60" sectionHeaderHeight="28" sectionFooterHeight="28" id="Six-C2-5rr">
+                <tableViewController storyboardIdentifier="TopPostsByCommentsViewControllerID" title="TopPostsByLikesView" id="dv7-xz-n5A" userLabel="Top Posts By Comments" customClass="TopPostsByCommentsViewController" customModule="igexplorer" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="60" sectionHeaderHeight="28" sectionFooterHeight="28" id="Six-C2-5rr">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="MediaRecentTableReuseIdentifier" textLabel="B7L-iC-3Ha" detailTextLabel="9eo-co-mNs" style="IBUITableViewCellStyleSubtitle" id="8Ac-Fp-GKB" customClass="PostsTypeTableViewCell" customModule="PhotoBrowser" customModuleProvider="target">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="MediaRecentTableReuseIdentifier" textLabel="B7L-iC-3Ha" detailTextLabel="9eo-co-mNs" style="IBUITableViewCellStyleSubtitle" id="8Ac-Fp-GKB" customClass="PostsTypeTableViewCell" customModule="igexplorer" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="92" width="600" height="60"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="8Ac-Fp-GKB" id="oPI-9w-5KY">
-                                    <rect key="frame" x="0.0" y="0.0" width="600" height="59.5"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="600" height="60"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="B7L-iC-3Ha">
@@ -607,15 +609,15 @@
                                             <nil key="highlightedColor"/>
                                         </label>
                                         <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Detail" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="9eo-co-mNs">
-                                            <rect key="frame" x="15" y="34" width="37.5" height="17"/>
+                                            <rect key="frame" x="15" y="34" width="38" height="17"/>
                                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                            <color key="textColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="calibratedRGB"/>
+                                            <color key="textColor" red="0.13725490200000001" green="0.61176470589999998" blue="0.39607843139999999" alpha="1" colorSpace="calibratedRGB"/>
                                             <nil key="highlightedColor"/>
                                         </label>
                                     </subviews>
-                                    <color key="backgroundColor" red="0.9767052531" green="0.60546392199999999" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="backgroundColor" red="0.090196078430000007" green="0.16078431369999999" blue="0.20784313730000001" alpha="1" colorSpace="calibratedRGB"/>
                                 </tableViewCellContentView>
                             </tableViewCell>
                         </prototypes>
@@ -641,17 +643,17 @@
         <!--Top Posts By Likes-->
         <scene sceneID="RGs-OO-hxB">
             <objects>
-                <tableViewController storyboardIdentifier="TopPostsByLikesViewControllerID" title="Media Recent" id="iCc-pl-EAj" userLabel="Top Posts By Likes" customClass="TopPostsByLikesViewController" customModule="PhotoBrowser" customModuleProvider="target" sceneMemberID="viewController">
-                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="60" sectionHeaderHeight="28" sectionFooterHeight="28" id="PRT-gX-vEk">
+                <tableViewController storyboardIdentifier="TopPostsByLikesViewControllerID" title="Media Recent" id="iCc-pl-EAj" userLabel="Top Posts By Likes" customClass="TopPostsByLikesViewController" customModule="igexplorer" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="60" sectionHeaderHeight="28" sectionFooterHeight="28" id="PRT-gX-vEk">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="MediaRecentTableReuseIdentifier" textLabel="fGg-Zw-NJ4" detailTextLabel="alA-KD-khn" style="IBUITableViewCellStyleSubtitle" id="tVs-Uk-57g" customClass="PostsTypeTableViewCell" customModule="PhotoBrowser" customModuleProvider="target">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="MediaRecentTableReuseIdentifier" textLabel="fGg-Zw-NJ4" detailTextLabel="alA-KD-khn" style="IBUITableViewCellStyleSubtitle" id="tVs-Uk-57g" customClass="PostsTypeTableViewCell" customModule="igexplorer" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="92" width="600" height="60"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="tVs-Uk-57g" id="zui-ak-yAR">
-                                    <rect key="frame" x="0.0" y="0.0" width="600" height="59.5"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="600" height="60"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="fGg-Zw-NJ4">
@@ -663,15 +665,15 @@
                                             <nil key="highlightedColor"/>
                                         </label>
                                         <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Detail" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="alA-KD-khn">
-                                            <rect key="frame" x="15" y="34" width="37.5" height="17"/>
+                                            <rect key="frame" x="15" y="34" width="38" height="17"/>
                                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                            <color key="textColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="calibratedRGB"/>
+                                            <color key="textColor" red="0.13725490200000001" green="0.61176470589999998" blue="0.39607843139999999" alpha="1" colorSpace="calibratedRGB"/>
                                             <nil key="highlightedColor"/>
                                         </label>
                                     </subviews>
-                                    <color key="backgroundColor" red="0.9767052531" green="0.60546392199999999" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="backgroundColor" red="0.090196078430000007" green="0.16078431369999999" blue="0.20784313730000001" alpha="1" colorSpace="calibratedRGB"/>
                                 </tableViewCellContentView>
                             </tableViewCell>
                         </prototypes>
@@ -705,17 +707,17 @@
         <!--Top Posts  Say Followers-->
         <scene sceneID="Qqp-lE-nil">
             <objects>
-                <tableViewController storyboardIdentifier="TopPostsSaysFollowersViewControllerID" title="Top Posts Say Followers" id="vkY-I5-jAP" userLabel="Top Posts  Say Followers" customClass="TopPostsSaysFollowersViewController" customModule="PhotoBrowser" customModuleProvider="target" sceneMemberID="viewController">
-                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="60" sectionHeaderHeight="28" sectionFooterHeight="28" id="IpT-wE-kXG">
+                <tableViewController storyboardIdentifier="TopPostsSaysFollowersViewControllerID" title="Top Posts Say Followers" id="vkY-I5-jAP" userLabel="Top Posts  Say Followers" customClass="TopPostsSaysFollowersViewController" customModule="igexplorer" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="60" sectionHeaderHeight="28" sectionFooterHeight="28" id="IpT-wE-kXG">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="MediaRecentTableReuseIdentifier" textLabel="Lvb-iY-nQK" detailTextLabel="zz0-i8-nRj" style="IBUITableViewCellStyleSubtitle" id="eZC-mH-lWD" customClass="PostsTypeTableViewCell" customModule="PhotoBrowser" customModuleProvider="target">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="MediaRecentTableReuseIdentifier" textLabel="Lvb-iY-nQK" detailTextLabel="zz0-i8-nRj" style="IBUITableViewCellStyleSubtitle" id="eZC-mH-lWD" customClass="PostsTypeTableViewCell" customModule="igexplorer" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="92" width="600" height="60"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="eZC-mH-lWD" id="GA0-bE-bUZ">
-                                    <rect key="frame" x="0.0" y="0.0" width="600" height="59.5"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="600" height="60"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Lvb-iY-nQK">
@@ -727,15 +729,15 @@
                                             <nil key="highlightedColor"/>
                                         </label>
                                         <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Detail" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="zz0-i8-nRj">
-                                            <rect key="frame" x="15" y="34" width="37.5" height="17"/>
+                                            <rect key="frame" x="15" y="34" width="38" height="17"/>
                                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                            <color key="textColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="calibratedRGB"/>
+                                            <color key="textColor" red="0.13725490200000001" green="0.61176470589999998" blue="0.39607843139999999" alpha="1" colorSpace="calibratedRGB"/>
                                             <nil key="highlightedColor"/>
                                         </label>
                                     </subviews>
-                                    <color key="backgroundColor" red="0.9767052531" green="0.60546392199999999" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="backgroundColor" red="0.090196078430000007" green="0.16078431369999999" blue="0.20784313730000001" alpha="1" colorSpace="calibratedRGB"/>
                                 </tableViewCellContentView>
                             </tableViewCell>
                         </prototypes>
@@ -761,7 +763,7 @@
         <!--Following-->
         <scene sceneID="8VU-Tz-spS">
             <objects>
-                <tableViewController storyboardIdentifier="FolloiwingTableViewControllerID" id="9tO-MQ-iqC" userLabel="Following" customClass="FollowingTableViewController" customModule="PhotoBrowser" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController storyboardIdentifier="FolloiwingTableViewControllerID" id="9tO-MQ-iqC" userLabel="Following" customClass="FollowingTableViewController" customModule="igexplorer" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="60" sectionHeaderHeight="28" sectionFooterHeight="28" id="FZ3-eF-ViO">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -771,11 +773,11 @@
                                 <rect key="frame" x="0.0" y="92" width="600" height="60"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="GSX-48-GLt" id="4ok-GU-Uz2">
-                                    <rect key="frame" x="0.0" y="0.0" width="600" height="59.5"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="600" height="59"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="zNh-CO-e3e">
-                                            <rect key="frame" x="15" y="10" width="39" height="24"/>
+                                            <rect key="frame" x="15" y="9" width="39" height="24"/>
                                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="20"/>
@@ -783,7 +785,7 @@
                                             <nil key="highlightedColor"/>
                                         </label>
                                         <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Detail" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="BCC-YJ-Y91">
-                                            <rect key="frame" x="15" y="34" width="37.5" height="17"/>
+                                            <rect key="frame" x="15" y="33" width="38" height="17"/>
                                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="14"/>
@@ -818,7 +820,7 @@
         <!--Ghost Followers-->
         <scene sceneID="zVN-ri-Wub">
             <objects>
-                <viewController title="Ghost Followers" id="6Iz-v5-wuV" customClass="GhostFollowersViewController" customModule="PhotoBrowser" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="Ghost Followers" id="6Iz-v5-wuV" customClass="GhostFollowersViewController" customModule="igexplorer" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="kX0-gd-oSo"/>
                         <viewControllerLayoutGuide type="bottom" id="Gvo-mv-n2X"/>
@@ -827,36 +829,36 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="80" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="M2k-Ip-ijF" customClass="FollowersTableView" customModule="PhotoBrowser" customModuleProvider="target">
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="80" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="M2k-Ip-ijF" customClass="FollowersTableView" customModule="igexplorer" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="64" width="600" height="536"/>
-                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                                 <color key="separatorColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="FollowersTypeTableViewCell" textLabel="2VG-jw-3qE" detailTextLabel="Kdc-Ni-Nv0" style="IBUITableViewCellStyleSubtitle" id="kQS-gf-scN" customClass="FollowersTypeTableViewCell" customModule="PhotoBrowser" customModuleProvider="target">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="FollowersTypeTableViewCell" textLabel="2VG-jw-3qE" detailTextLabel="Kdc-Ni-Nv0" style="IBUITableViewCellStyleSubtitle" id="kQS-gf-scN" customClass="FollowersTypeTableViewCell" customModule="igexplorer" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="122" width="600" height="80"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="kQS-gf-scN" id="dn3-hI-3YQ">
-                                            <rect key="frame" x="0.0" y="0.0" width="600" height="79.5"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="600" height="79"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Title" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="2VG-jw-3qE">
-                                                    <rect key="frame" x="15" y="16" width="42.5" height="26.5"/>
+                                                    <rect key="frame" x="15" y="15" width="43" height="27"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="22"/>
                                                     <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Subtitle" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Kdc-Ni-Nv0">
-                                                    <rect key="frame" x="15" y="42.5" width="62" height="21.5"/>
+                                                    <rect key="frame" x="15" y="42" width="62" height="22"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                                     <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                             </subviews>
-                                            <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                            <color key="backgroundColor" red="0.090196078430000007" green="0.16078431369999999" blue="0.20784313730000001" alpha="1" colorSpace="calibratedRGB"/>
                                         </tableViewCellContentView>
-                                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                        <color key="backgroundColor" red="0.090196078430000007" green="0.16078431369999999" blue="0.20784313730000001" alpha="1" colorSpace="calibratedRGB"/>
                                     </tableViewCell>
                                 </prototypes>
                             </tableView>
@@ -880,12 +882,12 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="qUA-kz-Sbd" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <exit id="Frk-wT-mil" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
-            <point key="canvasLocation" x="3519" y="-879"/>
+            <point key="canvasLocation" x="3304" y="-733"/>
         </scene>
         <!--Unrequited Followers-->
         <scene sceneID="1RL-dX-qUc">
             <objects>
-                <viewController title="Unrequited Followers" id="ava-Ve-USN" customClass="UnrequitedFollowersViewController" customModule="PhotoBrowser" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="Unrequited Followers" id="ava-Ve-USN" customClass="UnrequitedFollowersViewController" customModule="igexplorer" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="qhj-Bj-tOj"/>
                         <viewControllerLayoutGuide type="bottom" id="fMG-Xd-cdN"/>
@@ -894,34 +896,34 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="80" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="Qlm-C6-a3v" customClass="FollowersTableView" customModule="PhotoBrowser" customModuleProvider="target">
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="80" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="Qlm-C6-a3v" customClass="FollowersTableView" customModule="igexplorer" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="64" width="600" height="536"/>
                                 <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <color key="separatorColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="FollowersTypeTableViewCell" textLabel="cSa-aG-kEy" detailTextLabel="8JJ-WM-8Po" style="IBUITableViewCellStyleSubtitle" id="AOo-Ri-XEa" customClass="FollowersTypeTableViewCell" customModule="PhotoBrowser" customModuleProvider="target">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="FollowersTypeTableViewCell" textLabel="cSa-aG-kEy" detailTextLabel="8JJ-WM-8Po" style="IBUITableViewCellStyleSubtitle" id="AOo-Ri-XEa" customClass="FollowersTypeTableViewCell" customModule="igexplorer" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="122" width="600" height="80"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="AOo-Ri-XEa" id="E7X-cd-fvZ">
-                                            <rect key="frame" x="0.0" y="0.0" width="600" height="79.5"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="600" height="79"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Title" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="cSa-aG-kEy">
-                                                    <rect key="frame" x="15" y="16" width="42.5" height="26.5"/>
+                                                    <rect key="frame" x="15" y="15" width="43" height="27"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="22"/>
                                                     <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Subtitle" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="8JJ-WM-8Po">
-                                                    <rect key="frame" x="15" y="42.5" width="62" height="21.5"/>
+                                                    <rect key="frame" x="15" y="42" width="62" height="22"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                                     <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                             </subviews>
-                                            <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                            <color key="backgroundColor" red="0.090196078430000007" green="0.16078431369999999" blue="0.20784313730000001" alpha="1" colorSpace="calibratedRGB"/>
                                         </tableViewCellContentView>
                                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                                     </tableViewCell>
@@ -952,7 +954,7 @@
         <!--Secret Admirers-->
         <scene sceneID="pY3-XI-TaR">
             <objects>
-                <viewController title="Secret Admirers" id="jcZ-8L-XMd" customClass="SecretAdmirersViewController" customModule="PhotoBrowser" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="Secret Admirers" id="jcZ-8L-XMd" customClass="SecretAdmirersViewController" customModule="igexplorer" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="DkV-eK-hd7"/>
                         <viewControllerLayoutGuide type="bottom" id="51S-Mf-B7O"/>
@@ -961,34 +963,34 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="80" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="0A5-gx-TQo" customClass="FollowersTableView" customModule="PhotoBrowser" customModuleProvider="target">
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="80" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="0A5-gx-TQo" customClass="FollowersTableView" customModule="igexplorer" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="64" width="600" height="536"/>
                                 <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <color key="separatorColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="FollowersTypeTableViewCell" textLabel="UdV-OO-UIf" detailTextLabel="Sv2-qK-eFh" style="IBUITableViewCellStyleSubtitle" id="1Ot-iK-0ah" customClass="FollowersTypeTableViewCell" customModule="PhotoBrowser" customModuleProvider="target">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="FollowersTypeTableViewCell" textLabel="UdV-OO-UIf" detailTextLabel="Sv2-qK-eFh" style="IBUITableViewCellStyleSubtitle" id="1Ot-iK-0ah" customClass="FollowersTypeTableViewCell" customModule="igexplorer" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="122" width="600" height="80"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="1Ot-iK-0ah" id="OV1-hq-047">
-                                            <rect key="frame" x="0.0" y="0.0" width="600" height="79.5"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="600" height="79"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Title" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="UdV-OO-UIf">
-                                                    <rect key="frame" x="15" y="16" width="42.5" height="26.5"/>
+                                                    <rect key="frame" x="15" y="15" width="43" height="27"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="22"/>
                                                     <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Subtitle" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Sv2-qK-eFh">
-                                                    <rect key="frame" x="15" y="42.5" width="62" height="21.5"/>
+                                                    <rect key="frame" x="15" y="42" width="62" height="22"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                                     <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                             </subviews>
-                                            <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                            <color key="backgroundColor" red="0.090196078430000007" green="0.16078431369999999" blue="0.20784313730000001" alpha="1" colorSpace="calibratedRGB"/>
                                         </tableViewCellContentView>
                                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                                     </tableViewCell>
@@ -1019,7 +1021,7 @@
         <!--Booster Followers-->
         <scene sceneID="28J-1p-dL8">
             <objects>
-                <viewController title="Booster Followers" id="gx9-cG-sAJ" customClass="BoosterFollowersViewController" customModule="PhotoBrowser" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="Booster Followers" id="gx9-cG-sAJ" customClass="BoosterFollowersViewController" customModule="igexplorer" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="Pso-qC-YQZ"/>
                         <viewControllerLayoutGuide type="bottom" id="7NU-LV-Xuz"/>
@@ -1028,34 +1030,34 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="80" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="tmz-zS-QcL" customClass="FollowersTableView" customModule="PhotoBrowser" customModuleProvider="target">
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="80" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="tmz-zS-QcL" customClass="FollowersTableView" customModule="igexplorer" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="64" width="600" height="536"/>
                                 <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <color key="separatorColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="FollowersTypeTableViewCell" textLabel="ba8-IE-uVO" detailTextLabel="Hv3-iR-Mfj" style="IBUITableViewCellStyleSubtitle" id="O1y-c0-RyE" customClass="FollowersTypeTableViewCell" customModule="PhotoBrowser" customModuleProvider="target">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="FollowersTypeTableViewCell" textLabel="ba8-IE-uVO" detailTextLabel="Hv3-iR-Mfj" style="IBUITableViewCellStyleSubtitle" id="O1y-c0-RyE" customClass="FollowersTypeTableViewCell" customModule="igexplorer" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="122" width="600" height="80"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="O1y-c0-RyE" id="7mC-QM-U0v">
-                                            <rect key="frame" x="0.0" y="0.0" width="600" height="79.5"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="600" height="79"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Title" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="ba8-IE-uVO">
-                                                    <rect key="frame" x="15" y="16" width="42.5" height="26.5"/>
+                                                    <rect key="frame" x="15" y="15" width="43" height="27"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="22"/>
                                                     <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Subtitle" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Hv3-iR-Mfj">
-                                                    <rect key="frame" x="15" y="42.5" width="62" height="21.5"/>
+                                                    <rect key="frame" x="15" y="42" width="62" height="22"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                                     <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                             </subviews>
-                                            <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                            <color key="backgroundColor" red="0.090196078430000007" green="0.16078431369999999" blue="0.20784313730000001" alpha="1" colorSpace="calibratedRGB"/>
                                         </tableViewCellContentView>
                                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                                     </tableViewCell>
@@ -1085,7 +1087,7 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="51h-7Y-lLw"/>
-        <segue reference="sVf-IV-UuO"/>
+        <segue reference="fs3-Qc-iTJ"/>
+        <segue reference="CMn-QB-e8S"/>
     </inferredMetricsTieBreakers>
 </document>

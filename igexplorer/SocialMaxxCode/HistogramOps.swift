@@ -11,7 +11,7 @@ import UIKit
 typealias ColorFunc = (Double -> UIColor )
 struct DrawnHisto {
     static  func bColorFunc(quint:Double)->UIColor {
-        return UIColor.blueColor().colorWithAlphaComponent(CGFloat(quint))
+        return SmColors.blue.colorWithAlphaComponent(CGFloat(quint))
     }
     
     static  func aColorFunc(quint:Double)->UIColor {
@@ -72,7 +72,7 @@ extension DrawHistoOps {
                 let quint = matrix[i,j]
                 let color = colorfunc(quint)
                 let xpos = wspan * CGFloat(j) + label.frame.width
-                let fns = CGRectMake(xpos,ypos,wspan,hspan)
+                let fns = CGRectMake(xpos+1,ypos+1,wspan-2,hspan-2)// insert a tiny bit
                 let newView = UIView(frame:fns)
                 newView.backgroundColor = color
                 histo.addSubview(newView)
@@ -83,7 +83,7 @@ extension DrawHistoOps {
     
     func drawHistoFromMatrix(frame oframe:CGRect, qm:Matrix, colorfunc: ColorFunc) -> UIView  {
         let histoReservedSpace = UIView(frame:CGRect(x: 0,y: 0,width: oframe.width,height: oframe.height))
-        histoReservedSpace.backgroundColor = UIColor.orangeColor()
+        histoReservedSpace.backgroundColor = UIColor.clearColor()
         
         let hFrame = UIEdgeInsetsInsetRect(histoReservedSpace.frame,UIEdgeInsetsMake(10.0, 10.0, 10.0, 10.0))
         

@@ -34,7 +34,7 @@ final class Globals {
     
     init() {
         
-        print ("******Globals inited userid \(igAppUser)")
+        //print ("******Globals inited userid \(igAppUser)")
     }
 
 }

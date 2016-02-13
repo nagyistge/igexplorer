@@ -65,6 +65,7 @@
 		883C46831C6B78C600F2A145 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 883C46521C6B78C600F2A145 /* Main.storyboard */; };
 		883C46841C6B78C600F2A145 /* Reports.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 883C46531C6B78C600F2A145 /* Reports.storyboard */; };
 		883C469D1C6B7B3C00F2A145 /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 883C469C1C6B7B3C00F2A145 /* SwiftyJSON.swift */; };
+		ADA8CAD31C6E625500998118 /* SmColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADA8CAD21C6E625500998118 /* SmColors.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -139,6 +140,7 @@
 		883C46521C6B78C600F2A145 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		883C46531C6B78C600F2A145 /* Reports.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Reports.storyboard; sourceTree = "<group>"; };
 		883C469C1C6B7B3C00F2A145 /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyJSON.swift; sourceTree = "<group>"; };
+		ADA8CAD21C6E625500998118 /* SmColors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SmColors.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -230,6 +232,7 @@
 				883C46311C6B78C600F2A145 /* TableKinds.swift */,
 				883C46331C6B78C600F2A145 /* ViewControllers */,
 				883C464D1C6B78C600F2A145 /* Views */,
+				ADA8CAD21C6E625500998118 /* SmColors.swift */,
 			);
 			path = SocialMaxxCode;
 			sourceTree = "<group>";
@@ -389,6 +392,7 @@
 				883C465C1C6B78C600F2A145 /* IGNetOpsShim.swift in Sources */,
 				883C46711C6B78C600F2A145 /* MainScreenViewController.swift in Sources */,
 				883C466F1C6B78C600F2A145 /* HeartlessCommentersViewController.swift in Sources */,
+				ADA8CAD31C6E625500998118 /* SmColors.swift in Sources */,
 				883C466A1C6B78C600F2A145 /* BoosterFollowersViewController.swift in Sources */,
 				883C46551C6B78C600F2A145 /* BattleZone.swift in Sources */,
 				883C46651C6B78C600F2A145 /* TableKinds.swift in Sources */,

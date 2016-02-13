@@ -89,7 +89,7 @@
         super.viewDidLoad()
         
         assert (self.igp != nil)
-        self.view.backgroundColor = UIColor.clearColor()
+       
         if let pcview = self.view as?  MainScreenView {
             
             pcview.loggedOn = self.igp!.targetID == Globals.shared.igLoggedOnUserID

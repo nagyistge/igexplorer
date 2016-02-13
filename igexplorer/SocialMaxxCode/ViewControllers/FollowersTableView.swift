@@ -1,6 +1,6 @@
 //
 //  FollowersTableView.swift
-//  PhotoBrowser
+//  IGExplorer
 //
 //  Created by bill donner on 1/22/16.
 //  Copyright © 2016 Bill Donner. All rights reserved.

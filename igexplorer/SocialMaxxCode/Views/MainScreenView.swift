@@ -72,11 +72,11 @@ class MainScreenView: UIView, IGDataEngineDelegate
             if loggedInUser{ return}
             if d.hasNoRelationship  {
                 if d.privacy {
-                    self.backgroundColor = UIColor.darkGrayColor()
+                    self.backgroundColor = SmColors.gray
                     print(" -- This user is private")
                     
                 } else {
-                    self.backgroundColor = UIColor.brownColor()
+                    self.backgroundColor = SmColors.blue
                      print(" -- This user is public but has no relationship to YOU")
                 }
                 
