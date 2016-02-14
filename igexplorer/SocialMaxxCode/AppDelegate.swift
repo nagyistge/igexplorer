@@ -15,9 +15,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         // Override point for customization after application launch.
                 NSLog (FS.shared.DocumentsDirectory)
-       
-        let navController = window!.rootViewController as! UINavigationController
-        let photoBrowserCollectionViewController = navController.topViewController as! PhotoBrowserCollectionViewController
+//       
+//        let navController = window!.rootViewController as! UINavigationController
+//        let photoBrowserCollectionViewController = navController.topViewController as! PhotoBrowserCollectionViewController
         
         return true
     }
