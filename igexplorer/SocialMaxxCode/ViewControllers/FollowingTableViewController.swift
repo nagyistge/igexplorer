@@ -32,7 +32,7 @@ class FollowingTableViewController: UITableViewController , PeoplesTableKind{
     func process(request: NSURLRequest) throws {
         spinner.startAnimating()
        try IGNetOps.nwGetJSON(request.URL!) {status, jsonObject in
-            Globals.shared.igApiCallCount++
+            Globals.shared.igApiCallCount += 1
             defer {
                 self.spinner.stopAnimating()
             }

@@ -223,7 +223,7 @@ struct IGOps {
     static func plainCall(url:NSURL,
         completion:IntPlusOptDictCompletionFunc)  throws {
            try IGNetOps.nwGetJSON(url) { status, jsonObject in
-                Globals.shared.igApiCallCount++
+                Globals.shared.igApiCallCount += 1
                 defer {
                 }
                 IGJSON.parseIgJSONDict(jsonObject!) { code,dict in
@@ -238,7 +238,7 @@ struct IGOps {
         completion:IntCompletionFunc) throws {
             
            try  IGNetOps.nwGetJSON(url) { status, jsonObject in
-                Globals.shared.igApiCallCount++
+                Globals.shared.igApiCallCount += 1 
                 defer {
                 }
                 

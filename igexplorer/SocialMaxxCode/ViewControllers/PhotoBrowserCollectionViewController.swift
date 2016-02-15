@@ -141,7 +141,7 @@ class PhotoBrowserCollectionViewController: UICollectionViewController, UICollec
         populatingPhotos = true
         
         try IGNetOps.nwGetJSON (request.URL!) { status, jsonObject in
-            Globals.shared.igApiCallCount++
+            Globals.shared.igApiCallCount += 1
             defer {
                 self.populatingPhotos = false
             }

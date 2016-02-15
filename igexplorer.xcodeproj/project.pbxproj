@@ -16,7 +16,6 @@
 		8803288F1C6B8CA30019DC5C /* IGAppUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8803288E1C6B8CA30019DC5C /* IGAppUser.swift */; };
 		880328B71C6BC8F10019DC5C /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 880328B61C6BC8F10019DC5C /* README.md */; };
 		883C46151C6B75C300F2A145 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 883C46141C6B75C300F2A145 /* Assets.xcassets */; };
-		883C46181C6B75C300F2A145 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 883C46161C6B75C300F2A145 /* LaunchScreen.storyboard */; };
 		883C46541C6B78C600F2A145 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 883C46201C6B78C600F2A145 /* AppDelegate.swift */; };
 		883C46551C6B78C600F2A145 /* BattleZone.swift in Sources */ = {isa = PBXBuildFile; fileRef = 883C46211C6B78C600F2A145 /* BattleZone.swift */; };
 		883C46571C6B78C600F2A145 /* FileStuff.swift in Sources */ = {isa = PBXBuildFile; fileRef = 883C46231C6B78C600F2A145 /* FileStuff.swift */; };
@@ -90,7 +89,6 @@
 		880328B81C6BCB060019DC5C /* FastImageCache.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FastImageCache.h; sourceTree = "<group>"; };
 		883C46071C6B75C300F2A145 /* igexplorer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = igexplorer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		883C46141C6B75C300F2A145 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		883C46171C6B75C300F2A145 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		883C46191C6B75C300F2A145 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		883C46201C6B78C600F2A145 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		883C46211C6B78C600F2A145 /* BattleZone.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BattleZone.swift; sourceTree = "<group>"; };
@@ -203,7 +201,6 @@
 				883C46501C6B78C600F2A145 /* SocialMaxxStoryBoards */,
 				883C46141C6B75C300F2A145 /* Assets.xcassets */,
 				880328701C6B7C1B0019DC5C /* SocialMaxx-ObjCBridging.h */,
-				883C46161C6B75C300F2A145 /* LaunchScreen.storyboard */,
 				883C46191C6B75C300F2A145 /* Info.plist */,
 			);
 			path = igexplorer;
@@ -354,7 +351,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				883C46181C6B75C300F2A145 /* LaunchScreen.storyboard in Resources */,
 				883C46831C6B78C600F2A145 /* Main.storyboard in Resources */,
 				883C46841C6B78C600F2A145 /* Reports.storyboard in Resources */,
 				883C46151C6B75C300F2A145 /* Assets.xcassets in Resources */,
@@ -427,17 +423,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		883C46161C6B75C300F2A145 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				883C46171C6B75C300F2A145 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		883C461A1C6B75C300F2A145 /* Debug */ = {
