@@ -9,7 +9,7 @@
         <!--People-->
         <scene sceneID="C72-LZ-oxr">
             <objects>
-                <viewController id="erj-tw-ysM" customClass="PeopleReportsMenuViewController" customModule="igexplorer" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="PeopleMenuSceneID" id="erj-tw-ysM" customClass="PeopleReportsMenuViewController" customModule="igexplorer" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="ZB3-cD-Luc"/>
                         <viewControllerLayoutGuide type="bottom" id="Woq-94-Nfo"/>
@@ -41,7 +41,7 @@
                                             <segue destination="IWM-Kn-YrB" kind="show" id="riW-ec-Lgx"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dJa-3t-3On">
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dJa-3t-3On">
                                         <rect key="frame" x="78" y="215" width="404" height="107"/>
                                         <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                         <state key="normal" title="Top Commenters - Users With Highest Total Comments">
@@ -74,7 +74,7 @@
                                 </subviews>
                             </stackView>
                         </subviews>
-                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="0.090196078430000007" green="0.16078431369999999" blue="0.20784313730000001" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstItem="p73-gj-se0" firstAttribute="trailing" secondItem="T8g-q4-8iw" secondAttribute="trailingMargin" id="5PV-QC-dLo"/>
                             <constraint firstItem="p73-gj-se0" firstAttribute="leading" secondItem="T8g-q4-8iw" secondAttribute="leadingMargin" id="NeT-Pq-gbu"/>
@@ -82,13 +82,7 @@
                             <constraint firstItem="p73-gj-se0" firstAttribute="bottom" secondItem="Woq-94-Nfo" secondAttribute="top" id="rDP-co-E0u"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" title="People" id="Nr3-co-3kf">
-                        <barButtonItem key="rightBarButtonItem" title="Followers" id="Ery-b0-zqG">
-                            <connections>
-                                <segue destination="Ufn-am-dPk" kind="show" id="5kI-7A-NKA"/>
-                            </connections>
-                        </barButtonItem>
-                    </navigationItem>
+                    <navigationItem key="navigationItem" title="People" id="Nr3-co-3kf"/>
                     <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="MBe-Al-yhW" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -98,7 +92,7 @@
         <!--Followers-->
         <scene sceneID="zmP-rY-LvG">
             <objects>
-                <viewController id="Ufn-am-dPk" customClass="SpecialFollowersReportsMenuViewController" customModule="igexplorer" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="SpecialFollowersSceneID" id="Ufn-am-dPk" customClass="SpecialFollowersReportsMenuViewController" customModule="igexplorer" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="aG7-QI-vGp"/>
                         <viewControllerLayoutGuide type="bottom" id="4zW-oW-kid"/>
@@ -119,7 +113,7 @@
                                             <segue destination="gx9-cG-sAJ" kind="show" id="ovV-h5-SVp"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="igR-8O-Idp">
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="igR-8O-Idp">
                                         <rect key="frame" x="135" y="90" width="291" height="89"/>
                                         <state key="normal" title="Ghost Followers Who Dont Like Your Posts">
                                             <color key="titleColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="calibratedRGB"/>
@@ -146,7 +140,7 @@
                                             <segue destination="jcZ-8L-XMd" kind="show" id="FGb-WE-YH6"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZyK-qy-wya">
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZyK-qy-wya">
                                         <rect key="frame" x="150" y="358" width="261" height="89"/>
                                         <state key="normal" title="Followers Gained and Lost Last Month"/>
                                     </button>
@@ -157,7 +151,7 @@
                                 </subviews>
                             </stackView>
                         </subviews>
-                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" red="0.090196078430000007" green="0.16078431369999999" blue="0.20784313730000001" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstItem="4zW-oW-kid" firstAttribute="top" secondItem="KDG-vO-W0g" secondAttribute="bottom" id="5iw-n6-CKV"/>
                             <constraint firstItem="KDG-vO-W0g" firstAttribute="top" secondItem="aG7-QI-vGp" secondAttribute="bottom" id="Dbv-yL-uGh"/>
@@ -175,7 +169,7 @@
         <!--Posts-->
         <scene sceneID="cId-Or-eaS">
             <objects>
-                <viewController storyboardIdentifier="PrimaryMenuViewController" id="vx2-9m-WBq" customClass="PrimaryMenuViewController" customModule="igexplorer" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="PostsMenuSceneID" id="vx2-9m-WBq" customClass="PrimaryMenuViewController" customModule="igexplorer" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="3lz-rZ-ONH"/>
                         <viewControllerLayoutGuide type="bottom" id="xfD-RR-S6A"/>
@@ -196,7 +190,7 @@
                                             <segue destination="eMG-z5-Yvc" kind="show" id="OdZ-yb-qC7"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WNa-le-oyf">
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WNa-le-oyf">
                                         <rect key="frame" x="0.0" y="85" width="560" height="84"/>
                                         <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                         <state key="normal" title="When I Post">
@@ -226,7 +220,7 @@
                                             <segue destination="iCc-pl-EAj" kind="show" id="CeY-bf-MaW"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jLV-Of-KOE" userLabel="Posts Most and Least Likes With Followers">
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jLV-Of-KOE" userLabel="Posts Most and Least Likes With Followers">
                                         <rect key="frame" x="0.0" y="338" width="560" height="84"/>
                                         <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                         <state key="normal" title="Posts Most and Least Likes With Followers">
@@ -258,13 +252,7 @@
                         </constraints>
                     </view>
                     <extendedEdge key="edgesForExtendedLayout" bottom="YES"/>
-                    <navigationItem key="navigationItem" title="Posts" id="CTG-B4-6dG">
-                        <barButtonItem key="rightBarButtonItem" title="People" id="dS9-FE-b94">
-                            <connections>
-                                <segue destination="erj-tw-ysM" kind="show" id="Ogc-0E-B4y"/>
-                            </connections>
-                        </barButtonItem>
-                    </navigationItem>
+                    <navigationItem key="navigationItem" title="Posts" id="CTG-B4-6dG"/>
                     <simulatedNavigationBarMetrics key="simulatedTopBarMetrics"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="IWc-9P-Hq9" userLabel="First Responder" sceneMemberID="firstResponder"/>

@@ -18,6 +18,9 @@ class MainScreenView: UIView, IGDataEngineDelegate
     @IBOutlet weak var imageView: UIImageView!
     @IBOutlet weak var bioLabel: UILabel!
     @IBOutlet weak var websiteButton: UIButton!
+    @IBOutlet weak var reportsAboutPostsButton: UIButton!
+    @IBOutlet weak var reportsAboutLikersButton: UIButton!
+    @IBOutlet weak var reportsAboutFollowersButton: UIButton!
     
     var parent:MainScreenViewController?
     var loggedOn:Bool = false
@@ -63,6 +66,9 @@ class MainScreenView: UIView, IGDataEngineDelegate
     func processFinishedLoading(_: OU ,elapsed:String) {
         dispatch_async(dispatch_get_main_queue()) {
                 self.spinner.stopAnimating()
+            self.reportsAboutPostsButton.enabled = true
+            self.reportsAboutLikersButton.enabled = true
+            self.reportsAboutFollowersButton.enabled = true
         }
     }
     func processRelationshipStatus(d:OU.RelationshipData,loggedInUser:Bool) {
@@ -88,10 +94,7 @@ class MainScreenView: UIView, IGDataEngineDelegate
         }// let privat
     }
     
-    func setButtonsEnabled(b:Bool) {
-        dispatch_async(dispatch_get_main_queue()) {
-        }
-    }
+
     func tellUserAboutError(errcode:Int,msg:String,prompt:String="",title:String = "") {
         dispatch_async(dispatch_get_main_queue()) {
             self.names.text = errcode == 400 || errcode == 403 ? "Private :(" : "\(msg) Error: \(errcode)"

@@ -20,9 +20,11 @@
     
     
     // make a new one each time
-    @IBOutlet var tgr: UITapGestureRecognizer!
+    //@IBOutlet var tgr: UITapGestureRecognizer!
     
     @IBOutlet weak var tableView: FollowersTableView!
+    
+    
     @IBAction func donePressed(sender: AnyObject) {
         // at outer level ??
         
@@ -125,7 +127,7 @@
                         
                         self.navigationItem.rightBarButtonItem?.enabled = true
                         // finally when all the data is in
-                        self.tgr.enabled = true // can move on
+                       // self.tgr.enabled = true // can move on
                         self.tableView.setup(self.igp,followers:self.igp.pd.ouAllFollowers, vc:self){ a,b  in
                             // sort down based on absolute number of likes
                             var counter0 = 0
@@ -139,9 +141,9 @@
                             return counter0 > counter1// descending order
                         }
 
-                        if self.tableView.mutualFollowerPeople.count > 0 {
-                            self.navigationItem.rightBarButtonItem = UIBarButtonItem(title:"Battles>",style:.Plain, target:self,action:"goBattle")
-                        }
+//                        if self.tableView.mutualFollowerPeople.count > 0 {
+//                            self.navigationItem.rightBarButtonItem = UIBarButtonItem(title:"Battles>",style:.Plain, target:self,action:"goBattle")
+//                        }
                         
                         
                         NSTimer.scheduledTimerWithTimeInterval(1.0, target: self, selector: "deadmansTimer", userInfo: nil, repeats: true)
